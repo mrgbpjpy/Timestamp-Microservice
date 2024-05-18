@@ -1,0 +1,34 @@
+{
+  "name": "fcc-api-projects-boilerplate",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "build": "mkdir -p public && cp index.js package.json public/"
+  },
+  "dependencies": {
+    "cors": "^2.8.0",
+    "express": "^4.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrgbpjpy/Timestamp-Microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrgbpjpy/Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/mrgbpjpy/Timestamp-Microservice#readme",
+  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
